@@ -40,7 +40,7 @@ export function PermissionsPage({ navigation }: Props): React.ReactElement {
   return (
     <View style={styles.container}>
       <Image source={BANNER_IMAGE} style={styles.banner} />
-      <Text style={styles.welcome}>Welcome to{'\n'}Vision Camera.</Text>
+      <Text style={styles.welcome}>Welcome to{'\n'}Scrip Ledger.</Text>
       <View style={styles.permissionsContainer}>
         {cameraPermissionStatus !== 'granted' && (
           <Text style={styles.permissionText}>
